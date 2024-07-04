@@ -1,50 +1,82 @@
-# pl
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Brener Correa de Souza</title>
 </head>
+<style>
+    body {
+        background-color: black;
+    color: white; /* Cor do texto geral */
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    min-height: 100vh; /* Garante que o conteúdo ocupe pelo menos toda a altura da tela */
+    }
+    
+    h3 {
+        color: limegreen; /* Cor verde para os títulos h3 */
+    }
+    /* Exemplo de estilo para seções */
+    section {
+        margin-bottom: 40px;
+    }
+    /* Exemplo de estilo para links */
+    a {
+        color: limegreen;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
 <body>
-    <style>
-        body{
-            white-space: normal;
-            background: rgb(16, 16, 16);
-            background-color: rgb(201, 123, 123);
-            padding: 25px;
-            border: 10px;
-        }
-        a{
-            text-decoration: none;
-        }
-        h3{
+    <img src="" alt="">
+    <!----MEU NOME E MEU RAMOS NA AREA DE TI --->
+    <!---ESTA FALTADO ALGUMA COISA AQUI--->
+    <h1>Brener Correa de Souza</h1>
+    <br>
+    <h3>Desenvolvedor FONT-END</h3>
 
-        }
-        img{
-            border: 25px;
-            width: 30px;
-            height: 30px;
-        }
-    </style>
-    <img src="./ti.jpg"></img><h1>Projetos que estão feitos</h1>
-    <section>
-    <h3>Forma de checkout</h3>
-    <p2>esse foi meu primeiro projeto da faculdade assim que comecei a programação</p2>
-    <br>
-    <a href="pagamneto.html">Html e css basico</a>
-    <br>
-    <br>
-    <h3>loja de loja digital</h3>
-    <p>esse foi um dos meus grande projedo loja virtual que iria servir por meu APS</p>
-    <a href="loja.html">loja digital basica</a>
-    <h3>login de acesso</h3>
-    <p>projeto de login de acesso que foi feita para loja acima esta tudo certo</p>
-    <a href="C:\Users\BRENO\Documents\trabalho da universidade\home.html">login de acesso basico </a>
-    <h3>jornal feito pela metade</h3>
-    <p>Esse foi feito para um jornal que não foi para frete, mas estou tentando leva esse projeto para frete</p>
-    <a href="loja dividal.html">jornal</a>
+     <!---OBJETIVOS DE IT ATRAS DE EMPREOG-->
+     <section id = sobre>
+     <h3>sobre mim </h3>
+     <p>
+        Estou cursando o terceiro semetre de Analista de sistema, estudo programação em python, C++, PHP.<br>
+        Tenho alguns projetos que estão em andamentos e outros finalizados.
+        Tenho pouco conhecimento em segurança da imformação, e agora busco agora aprender sobre tecnica de hackear, mesmo eu tendo pouca experiencia busco sempre aprimorar toda minha apredizagem em TI.
+     </p>
+    </section>
+    <Br>
+    <!----PROJETOS QUE FORAM FEITOS OU QUE ESTAO PARA TERMINAR OS PRAZOS--->
+    <section id="portfolio">
+        <h2>projeto Feitos</h2>
+        <div class="projeto">
+            <h3><a href="">site de vendas de motos</a></h3>
+            <p>feito para trubinar vendas de motos para vendedores de manaus o projeto esta feito precisado de servidores para ir ao ar.</p>
+        </div>
+        <div class="projeto">
+            <h3>Projeto 2</h3>
+            <p>calculadora em linguagemem python</p>
+        </div>
+    </section>
+    <!----MINHA HABILIDADES E CURSOS COMPLETO DE TODOS OS ANOS=--->
+    <h3>Habilidades</h3>
+    <p>
+        linguagem programação em FONT-END<br>
+        linguagem em programação em Back-END<br>
+        Seguraça da Imformação <br>
+
+    </p>
+    <!---Contatos sobre trabalhos-->
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Email: BrenerSouza20@gmail.com</p>
     </section>
 </body>
 </html>
